@@ -8,7 +8,7 @@ export const ProductDetail = () => {
   console.log(product)
   const getProductDetail = async () => {
     /* let url = `https://my-json-server.typicode.com/HeoSsaM/peachnlily/products/${id}`; */
-    let url = `https://my-json-server.typicode.com/minsikH/psychic-tribble/${id}`;
+    let url = `https://my-json-server.typicode.com/minsikH/psychic-tribble/products/${id}`;
     let response = await fetch(url);
     let data = await response.json();
     console.log(data);
