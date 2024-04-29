@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useSignup } from '../hooks/useSignup'
 //import googleLoginImg from '../img/google_login.svg';
-import { Form, Container, button } from 'react-bootstrap';
+import { Form, Container, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
 export const Signup = () => {
@@ -51,7 +51,7 @@ export const Signup = () => {
                     </Form.Group>
 
                     <div className="btn_area">
-                        <button type='submit' className='btn_join'>회원가입</button>
+                        <Button type='submit' className='btn_join'>회원가입</Button>
                         {/* <button type="submit" id="loginGoogle">
                             <img src={googleLoginImg} alt="구글로그인" />
                         </button> */}
